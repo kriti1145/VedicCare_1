@@ -91,16 +91,15 @@ const DoctorDetail = () => {
                 >
                   About
                 </button>
-                {/* {isActive && (
-                  <button
-                    onClick={() => setTab("feedback")}
-                    className={`py-2 px-4 sm:px-5 text-sm lg:text-base font-semibold ${
-                      tab === "feedback" && "border-b-4 border-[#7cb8aa]"
-                    }`}
-                  >
-                    Feedback
-                  </button>
-                )} */}
+
+                <button
+                  onClick={() => setTab("feedback")}
+                  className={`py-2 px-4 sm:px-5 text-sm lg:text-base font-semibold ${
+                    tab === "feedback" && "border-b-4 border-[#7cb8aa]"
+                  }`}
+                >
+                  Feedback
+                </button>
               </div>
 
               <div className="mt-8 lg:mt-7">
